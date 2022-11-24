@@ -512,12 +512,12 @@ class LogstashDispatcher(object):
         return User.objects.count()
 
     @staticmethod
-    def _get_layers():
+    def _get_datasets():
         """
         Retrieving all the existing layers
         :return: layers count
         """
-        return Layer.objects.count()
+        return Dataset.objects.count()
 
     @staticmethod
     def _get_maps():
