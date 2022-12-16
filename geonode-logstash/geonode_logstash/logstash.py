@@ -93,7 +93,7 @@ DATA_TYPES_MAP = [
         ],
         "extra": [
             "registered_users",
-            "layers",
+            "datasets",
             "documents",
             "maps",
             "errors"
